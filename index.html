@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/895fff4954.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="input-container">
+            <i class="fa-solid fa-location-dot location"></i>
+            <input type="text" placeholder="Enter Location" class="input-box" />
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+        <div class="weather-information">
+            <div class="weather-info">
+                <h1 class="locations"></h1>
+                <img src="https://res.cloudinary.com/doenrp5cl/image/upload/v1704189046/Premium_Vector___Glassmorphism_cool_weather-removebg-preview_yl1mlb.png"
+                    class="weather-image">
+                <br>
+                <div class="weather-degree-info">
+                    <p class="temperature">20<sup>o<sub>C</sub></sup></p>
+                    <p class="description">Testing Clouds</p>
+                </div>
+            </div>
+            <div class="humidity-wind">
+                <div class="humidity-info">
+                    <i class="fa-solid fa-water image-hum-win"></i>
+                    <div class="humidity-per-info">
+                        <p class="humidity">0%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind-info">
+                    <i class="fa-solid fa-wind image-hum-win"></i>
+                    <div class="wind-speed-info">
+                        <p class="wind">0Km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="invalid-location">
+            <img src="https://res.cloudinary.com/doenrp5cl/image/upload/v1704193046/3d_Man_Thinking_with_Red_Question_Mark_in_Thought_Bubble_Stock_Illustration_-_Illustration_of_mind__mystery__30387489-removebg-preview_u9iice.png"
+                class="error-image" />
+            <div>
+                <p class="error-message">Oops! Invalid Location!</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
